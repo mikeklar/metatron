@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56177C7C2DA2E84500A2A2BB /* SwiftScribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftScribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56177C7C2DA2E84500A2A2BB /* Metatron-Fluid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metatron-Fluid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		785079145B6CEF6E2D011C0E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECC876D74CE254E1D1BC74C5 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +49,7 @@
 		56177C7D2DA2E84500A2A2BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56177C7C2DA2E84500A2A2BB /* SwiftScribe.app */,
+				56177C7C2DA2E84500A2A2BB /* Metatron-Fluid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 			);
 			name = SwiftScribe;
 			productName = SwiftTranscriptionSampleApp;
-			productReference = 56177C7C2DA2E84500A2A2BB /* SwiftScribe.app */;
+			productReference = 56177C7C2DA2E84500A2A2BB /* Metatron-Fluid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.examples.scribe;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.swift.examples.scribe.ios;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.swift.examples.scribe.macos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Metatron-Fluid";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -406,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.examples.scribe;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.swift.examples.scribe.ios;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.swift.examples.scribe.macos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Metatron-Fluid";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
